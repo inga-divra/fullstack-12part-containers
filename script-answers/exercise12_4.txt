@@ -1,0 +1,18 @@
+docker start -i 0e29ccde5d36
+
+apt update
+
+apt install -y curl
+
+curl -sL https://deb.nodesource.com/setup_20.x | bash
+
+apt install -y nodejs
+
+press 8 to select Europe
+
+press 18 to select Helsinki 
+
+node -v *to check node version
+
+node /usr/src/app/index.js
+
