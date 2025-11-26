@@ -1,0 +1,11 @@
+docker start -i 0e29ccde5d36
+
+nano /usr/src/app/index.js
+
+console.log('Hello World')
+
+ctrl + O to save
+
+ctrl + X to exit
+
+cat /usr/src/app/index.js
