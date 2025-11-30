@@ -62,3 +62,6 @@ typings/
 
 # MongoDB local data directory
 mongo_data/
+
+# Redis local data directory
+redis_data/
